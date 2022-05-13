@@ -1,0 +1,151 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.icon-setting{
+    position: fixed;
+    right: 0;
+    top: 50%;
+    background-color: #555;
+    color: #fff;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    border-radius: 2px;
+}
+.icon-setting i{
+    margin-top: 10px;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.685);
+    height: 100vh;
+}
+.home{
+    background-image: url(../images/intro-bg.jpg);
+    height: 100vh;
+    background-size:cover ;
+    background-position: right;
+    
+}
+.home .nav{
+    width: 100%;
+    padding:10px 0;
+    background-color: rgba(0, 0, 0, 0.678);
+    display: flex;
+    justify-content: center;
+}
+.home .nav .logo {
+    width: 10%;
+    margin-left: 35px;
+}
+.home .nav .logo img{
+    width: 100%;
+}
+.home .nav .head{
+    width: 50%;
+    margin: auto;
+}
+.home .nav .head .icon-head{
+    opacity: 0;
+}
+.home .nav .head ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.home .nav .head ul li {
+   list-style: none;
+}
+.home .nav .head ul li a:hover{
+    color: #20c997;
+}
+
+.home .nav .head ul li a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s;
+    
+}
+.home-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 0;
+    color: white;
+}
+
+.home-content h3{
+    font-weight: 500;
+    font-size: 25px;
+}
+.home-content p{
+    color: #dee3e4;
+    font-size: 18px;
+}
+
+.home-content a{
+    text-decoration: none;
+    color: #20c997;
+    border: #20c997 2px solid;
+    width: 120px;
+    text-align: center;
+    border-radius: 120px;
+    padding: 10px ;
+    transition: all 0.4s;
+    margin-top: 20px;
+}
+.home-content a:hover{
+    background-color: #20c997;
+    color: #fff;
+}
+.home-content .wrapper{
+    display: inline-flex;
+}
+.home-content .wrapper .static-txt{
+    font-size: 60px;
+    font-weight: 600;
+}
+.home-content .wrapper .dynamic-txt{
+    margin-left: 15px;
+    overflow: hidden;
+}
+.home-content .wrapper .dynamic-txt li{
+   list-style: none;
+   font-size: 60px;
+   font-weight: 600;
+    
+}
+
+.home .arrow{
+    position: absolute;
+    z-index: 3;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -16px;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    animation: fadeInDown 1.5s infinite;
+    position: relative;
+}
+
+@keyframes fadeInDown {
+    0% {
+      top: -25px;
+      opacity: 0;
+    }
+    100% {
+      top: 10px;
+      opacity: 1;
+    }
+  }
