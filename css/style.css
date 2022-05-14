@@ -139,6 +139,7 @@
     position: relative;
 }
 
+
 @keyframes fadeInDown {
     0% {
       top: -25px;
@@ -149,3 +150,147 @@
       opacity: 1;
     }
   }
+
+
+  .sec2 {
+    width: 100%;
+    height: 105%;
+    background-color: #fff;
+}
+
+.about-me {
+    position: relative;
+    margin-top: 40px;
+}
+
+.about-me h2 {
+    font-size: 8em;
+    text-align: center;
+    color: #dee3e4;
+    font-weight: 600;
+
+}
+
+.about-me-p {
+    width: 100%;
+    height: 192px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2em;
+    font-weight: 600;
+    color: #000;
+}
+
+.sec2-content {
+    width: 90%;
+    height: 50%;
+    margin: 4% auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+
+.con-prag {
+    width: 63%;
+    height: 100%;
+}
+
+.con-prag h4 {
+    font-size: 1.7em;
+    font-weight: 600;
+}
+
+.con-prag h4 span {
+    color: #20c997;
+}
+
+.con-prag p {
+    padding-top: 20px;
+}
+
+.con-list {
+    width: 30%;
+    padding: 10px 0px;
+}
+
+.con-list ul {
+    list-style: none;
+}
+
+.con-list ul li {
+    font-size: 1em;
+    padding: 10px 0px;
+
+}
+
+.con-list ul li a {
+    text-decoration: none;
+    color: #20c997;
+}
+
+.con-list ul li span {
+    font-size: 1.1em;
+    font-weight: 600;
+
+}
+
+hr {
+    border: 1px solid #dddddd;
+    width: 100%;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+
+}
+
+.con-list button {
+    width: 45%;
+    height: 13%;
+    margin-top: 10px;
+    border: 1px solid transparent;
+    background-color: #20c997;
+    border-radius: 40px;
+    margin-left: 40px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    box-shadow: 2px 3px 6px rgb(237, 237, 237);
+    transition: .5s;
+}
+
+.con-list button a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.con-list button:hover {
+    background-color: #14a87c;
+    box-shadow: 2px 3px 10px rgba(105, 104, 104, 0.516);
+}
+
+.numbers {
+
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.numb h3 {
+    font-size: 3em;
+    font-weight: 500;
+    color: #6c757d;
+}
+
