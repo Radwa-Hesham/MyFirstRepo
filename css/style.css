@@ -495,3 +495,128 @@ hr {
 .cs{
     margin-left: 450px;
 }
+
+/*Ahmed*/
+
+/* Start Contact */
+.contact {
+    background-color: #f8f9fa;
+    padding-bottom: 20px;
+  }
+  .contact .inner .h2-1 {
+    text-align: center;
+    font-size: 130px;
+    opacity: 0.4;
+    color: #dee3e4;
+  }
+  .contact .inner .h2-2 {
+    position: absolute;
+    top: 19%;
+    left: 42.5%;
+    font-size: 35px;
+    border-bottom: #20c997 solid 4px;
+    line-height: 1.5;
+  }
+  .contact .contact-info .content-info {
+    width: 20%;
+    float: left;
+  }
+  .contact .contact-info .content-info .p1 {
+    padding-bottom: 15px;
+    line-height: 1.8;
+  }
+  .contact .contact-info .content-info span {
+    color: #20c997;
+    font-size: 20px;
+  }
+  .contact .contact-info .content-info .span2 {
+    color: #20c997;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .contact .contact-info .content-from {
+    width: 80%;
+    float: right;
+  }
+  .contact .contact-info .content-from form .from-name {
+    float: left;
+    width: 49%;
+  }
+  .contact .contact-info .content-from form .from-name .name,
+  .contact .contact-info .content-from form .from-email .email {
+    width: 100%;
+    padding: 0.81rem 0.96rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    color: #656565;
+  }
+  
+  .contact .contact-info .content-from form .from-email {
+    float: right;
+    width: 49%;
+  }
+  .contact .contact-info .content-from form .form-txarea {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .contact .contact-info .content-from form .form-txarea .form-control {
+    padding: 0.81rem 0.96rem;
+    color: #656565;
+    width: 100%;
+    border: 1px solid #ced4da;
+    background-color: #fff;
+    border-radius: 0.25rem;
+  }
+  .contact .contact-info .content-from form .but {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .contact .contact-info .content-from form .but button {
+    padding: 0.8rem 2.6rem;
+    background-color: #20c997;
+    border: 1px solid #20c997;
+    border-radius: 50rem;
+    color: #fff;
+    font-weight: 500;
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
+    cursor: pointer;
+    margin-bottom: 50px;
+    margin-top: 10px;
+  }
+  /* End Contact */
+  
+  /* Start footer */
+  
+  .footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .footer .row .footer-content {
+    float: left;
+    width: 50%;
+  }
+  .footer .row .footer-content a {
+    text-decoration: none;
+    color: #20c997;
+  }
+  
+  .footer .row .footer-content2 {
+    float: right;
+    width: 30%;
+  }
+  .footer .row .footer-content2 ul li {
+    display: inline-block;
+    list-style: none;
+    border-left: 1px solid #6f72755b;
+  }
+  .footer .row .footer-content2 ul li a {
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+  }
+  .footer .row .footer-content2 ul li a:hover {
+    color: #20c997;
+  }
+  /* End footer */
+  
